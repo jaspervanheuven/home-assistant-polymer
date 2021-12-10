@@ -57,8 +57,7 @@ class HaAuthFlow extends localizeLiteMixin(PolymerElement) {
           </template>
           <div class="action">
             <mwc-button raised on-click="_handleSubmit"
-              >[[_computeSubmitCaption(_step.type)]]</mwc-button
-            >
+              >[[_computeSubmitCaption(_step.type)]] 2</mwc-button>
           </div>
         </template>
       </form>
